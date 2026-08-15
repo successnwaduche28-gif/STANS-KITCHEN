@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stan's Kitchen | Order</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="index.html"><img src="images/stan-logo.jpg" alt="Logo"><span>STAN'S KITCHEN</span></a>
+<button onclick="toggleMenu()">☰</button><nav id="nav"><a href="index.html">Home</a><a href="menu.html">Menu</a><a class="active" href="order.html">Order</a><a href="contact.html">Contact</a></nav>
+</div></header>
+<section class="page-title"><small>ORDER ONLINE</small><h1>Build Your Order</h1><p>Select meals and quantities. The manager will confirm the price on WhatsApp.</p></section>
+<section class="section">
+<div class="order-layout">
+<div><h2>Menu</h2><div id="orderMenu" class="order-items"></div></div>
+<div class="cart"><h2>Your Order</h2><div id="cart"></div><label>Your Name</label><input id="customerName" placeholder="Full name"><label>Phone</label><input id="customerPhone" placeholder="+234..."><button class="btn full" onclick="sendOrder()">💬 Send Order on WhatsApp</button></div>
+</div>
+</section>
+<footer><b>STAN'S KITCHEN</b><p>📞 +234 902 924 6887</p><p>📧 divinegodventuresltd@gmail.com</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
